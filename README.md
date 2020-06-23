@@ -1,2 +1,2 @@
-# onokumus.github.io
-kişisel site
+# kursadarslan.github.io
+academis pages
