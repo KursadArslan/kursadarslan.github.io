@@ -116,9 +116,9 @@ Layout styles
 }
 
 .header {
-    color: #fff;
-    background: #26655f;
-    /*26655f,2b8980  */
+    color: #000000;
+    background: #ffff; /*Header rengi,white */
+    /*26655f,2b8980,#26655f  */
     
     padding: 1.6em 1.20em 2.2em 1.20em;
 }
@@ -133,9 +133,10 @@ Layout styles
 }
 
 .nav-bar {
-    background: #2faea3;
+    background: #f2f2f2; /*Bar rengi */
     padding: 0;
-    /*,334660  */
+    text-align: center;
+    /*,334660,#2faea3  */
 
 }
 
@@ -177,25 +178,25 @@ Nav
 }
 
 .nav a:link {
-    color: white;
+    color: black;
     padding: 10px 10px;
 }
 
 .nav a:visited {
-    color: white;
+    color: black;
     padding: 10px 10px;
 }
 
 .nav a:focus {
-    color: white;
-    background-color: #30d5c8;
+    color: black;
+    background-color: #dcdcdc; /* Mause focus*/
     padding: 10px 10px;
-    /*1e433f,0D47A1 */
+    /*1e433f,0D47A1,#30d5c8*/
 }
 
 .nav a:hover {
-    color: white;
-    background-color: #30d5c8;
+    color: black;
+    background-color: #dcdcdc;
     padding: 10px 10px;
 }
 
