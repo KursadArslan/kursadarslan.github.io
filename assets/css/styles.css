@@ -156,3 +156,50 @@ footer {
     font-size: 14px;
     z-index: 1000; /* Footer'ın diğer içeriklerin üzerinde kalmasını sağlar */
 }
+
+
+
+
+
+
+
+/* Mobil Duyarlı Stiller */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Menü öğelerini dikey hizala */
+        align-items: flex-start; /* Soldan hizala */
+        padding: 10px; /* Padding ayarlama */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Dikey liste */
+        gap: 10px; /* Aralık ayarla */
+        width: 100%; /* Tam genişlik */
+        padding: 0; /* Padding'i sıfırla */
+    }
+
+    .social-media-strip {
+        padding: 10px; /* Padding'i azalt */
+    }
+
+    .social-media-strip img {
+        width: 40px; /* Mobilde daha küçük görseller */
+        height: 40px;
+    }
+
+    h2 {
+        font-size: 24px; /* Başlık boyutunu küçült */
+    }
+
+    p {
+        font-size: 16px; /* Metin boyutunu küçült */
+    }
+
+    .education-item {
+        padding: 15px; /* Eğitim bilgilerinin padding'ini ayarlama */
+    }
+
+    .education-item h3 {
+        font-size: 20px; /* Eğitim başlık boyutunu küçült */
+    }
+}
